@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(44, 50, 51);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    user-select: none;
+}
+#webName{
+    color:rgb(239, 234, 221);
+    text-align: center;
+    font-size: clamp(1em,13vw,10em);
+    font-weight: normal;
+    font-family: sans-serif;
+}
+.catContainer{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+}
+.catImage{
+    max-width: 100%;
+}
+#petRegionContainer{
+    display: block;
+    margin-left: -100%;
+    width: 100%;
+}
+#petRegion{
+    margin-left: 37%;
+    margin-top: 18%;
+    width: 35%;
+    height: 60%;
+    cursor: grab;
+}
+#petRegion.hold-click{
+    cursor: grabbing;
+}
